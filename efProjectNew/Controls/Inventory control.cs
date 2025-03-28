@@ -65,8 +65,8 @@ namespace efProjectNew
         }
         private void loadData()
         {
-            Context.Inventories.Load();
-            var list = Context.Inventories.Local.ToBindingList();
+            Context = new InventoryContext();
+            var list = Context.Inventories.ToList();
             dataGridView1.DataSource = list;
 
             foreach (DataGridViewRow row in dataGridView1.Rows)
@@ -99,7 +99,7 @@ namespace efProjectNew
             ValidateInputs();
         }
 
-       
+
         private void SetupDataGridView()
         {
             // Ensure the DataGridView is empty before adding new columns
@@ -194,8 +194,7 @@ namespace efProjectNew
 
         private void DeleteInventory(int inventoryId)
         {
-            try
-            {
+           
                 var Inventory = Context.Inventories.FirstOrDefault(p => p.InventoryId == inventoryId);
                 if (Inventory != null)
                 {
@@ -203,21 +202,25 @@ namespace efProjectNew
 
                     if (confirm == DialogResult.Yes)
                     {
+                    try
+                    {
                         Context.Inventories.Remove(Inventory);
                         Context.SaveChanges();
                         MessageBox.Show("Inventory deleted successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        loadData(); 
+                        loadData();
+                    }
+                    catch
+                    {
+                        MessageBox.Show("Inventory Can't deleted!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
                     }
                 }
                 else
                 {
                     MessageBox.Show("Inventory not found!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
-            }
-            catch
-            {
-                MessageBox.Show("Inventory Can't deleted!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+            
+          
         }
         private void editInventory(int id)
         {

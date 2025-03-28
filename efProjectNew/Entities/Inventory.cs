@@ -12,5 +12,7 @@ namespace efProjectNew.Entities
         public string? Address { get; set; }
         public string? Name { get; set; }
         public string? ManagerName { get; set; }
+
+        public virtual ICollection<InventoryItems>InventoryItems { get; set; }=new HashSet<InventoryItems>();
     }
 }

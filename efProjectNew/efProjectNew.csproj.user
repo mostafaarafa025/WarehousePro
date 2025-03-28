@@ -4,17 +4,32 @@
     <Compile Update="Controls\ClientControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="Controls\Entry_Vouchers.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\Inventory_Items.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="Controls\ProductControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="Controls\SupplierControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="EntryVouchersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Controls\Inventory control.cs">
       <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="formDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ProductForm.cs">
+      <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
 </Project>

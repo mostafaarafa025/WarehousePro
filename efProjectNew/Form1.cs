@@ -20,6 +20,8 @@ namespace efProjectNew
             panel1.Visible = false;
             //InventoryContext context = new InventoryContext();
             //context.Database.Migrate();
+
+
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -30,7 +32,7 @@ namespace efProjectNew
         private void btnMenu_Click(object sender, EventArgs e)
         {
             panelMenu.Visible = !panelMenu.Visible;
-            panelMenu.BringToFront(); 
+            panelMenu.BringToFront();
         }
         private void LoadUserControl(UserControl userControl)
         {
@@ -44,13 +46,13 @@ namespace efProjectNew
         private void InventoryLabel_Click(object sender, EventArgs e)
         {
             LoadUserControl(new Inventory_control()); // Load Inventory section
-            panelMenu.Visible=false;
+            panelMenu.Visible = false;
         }
 
         private void ProductsLabel_Click(object sender, EventArgs e)
         {
             LoadUserControl(new ProductControl());
-            panelMenu.Visible=false ;
+            panelMenu.Visible = false;
         }
 
         private void suppliersLabel_Click(object sender, EventArgs e)
@@ -62,6 +64,23 @@ namespace efProjectNew
         private void clientLabel_Click(object sender, EventArgs e)
         {
             LoadUserControl(new ClientControl());
+            panelMenu.Visible = false;
+        }
+
+        private void panel1_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void InventoryItemLabel_Click(object sender, EventArgs e)
+        {
+            LoadUserControl(new Inventory_Items());
+            panelMenu.Visible = false;
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            LoadUserControl(new Entry_Vouchers());
             panelMenu.Visible = false;
         }
     }

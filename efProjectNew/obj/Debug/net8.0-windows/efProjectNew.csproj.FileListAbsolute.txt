@@ -145,3 +145,9 @@ D:\iti\entityFramework\efProjectNew\efProjectNew\obj\Debug\net8.0-windows\efProj
 D:\iti\entityFramework\efProjectNew\efProjectNew\obj\Debug\net8.0-windows\efProjectNew.Controls.SupplierControl.resources
 D:\iti\entityFramework\efProjectNew\efProjectNew\obj\Debug\net8.0-windows\efProjectNew.Controls.ClientControl.resources
 D:\iti\entityFramework\efProjectNew\efProjectNew\obj\Debug\net8.0-windows\efProjectNew.Controls.ProductControl.resources
+D:\iti\entityFramework\efProjectNew\efProjectNew\obj\Debug\net8.0-windows\efProjectNew.sourcelink.json
+D:\iti\entityFramework\efProjectNew\efProjectNew\obj\Debug\net8.0-windows\efProjectNew.Controls.Inventory_Items.resources
+D:\iti\entityFramework\efProjectNew\efProjectNew\obj\Debug\net8.0-windows\efProjectNew.Controls.Entry_Vouchers.resources
+D:\iti\entityFramework\efProjectNew\efProjectNew\obj\Debug\net8.0-windows\efProjectNew.EntryVouchersForm.resources
+D:\iti\entityFramework\efProjectNew\efProjectNew\obj\Debug\net8.0-windows\efProjectNew.ProductForm.resources
+D:\iti\entityFramework\efProjectNew\efProjectNew\obj\Debug\net8.0-windows\efProjectNew.formDetails.resources

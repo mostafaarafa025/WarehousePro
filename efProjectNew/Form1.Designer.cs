@@ -33,6 +33,8 @@
             btnMenu = new Button();
             panel1 = new Panel();
             panelMenu = new Panel();
+            label1 = new Label();
+            InventoryItemLabel = new Label();
             clientLabel = new Label();
             ProductsLabel = new Label();
             suppliersLabel = new Label();
@@ -49,7 +51,7 @@
             panelNavbar.Dock = DockStyle.Top;
             panelNavbar.Location = new Point(0, 0);
             panelNavbar.Name = "panelNavbar";
-            panelNavbar.Size = new Size(990, 42);
+            panelNavbar.Size = new Size(1068, 42);
             panelNavbar.TabIndex = 0;
             // 
             // lblTitle
@@ -81,22 +83,51 @@
             panel1.Dock = DockStyle.Fill;
             panel1.Location = new Point(0, 42);
             panel1.Name = "panel1";
-            panel1.Size = new Size(990, 473);
+            panel1.Size = new Size(1068, 528);
             panel1.TabIndex = 2;
+            panel1.Paint += panel1_Paint_1;
             // 
             // panelMenu
             // 
             panelMenu.BackColor = SystemColors.ControlLightLight;
+            panelMenu.Controls.Add(label1);
+            panelMenu.Controls.Add(InventoryItemLabel);
             panelMenu.Controls.Add(clientLabel);
             panelMenu.Controls.Add(ProductsLabel);
             panelMenu.Controls.Add(suppliersLabel);
             panelMenu.Controls.Add(InventoryLabel);
             panelMenu.Location = new Point(0, 42);
             panelMenu.Name = "panelMenu";
-            panelMenu.Size = new Size(150, 473);
+            panelMenu.Size = new Size(164, 528);
             panelMenu.TabIndex = 1;
             panelMenu.TabStop = true;
             panelMenu.Paint += panel1_Paint;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.BackColor = SystemColors.ControlLightLight;
+            label1.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
+            label1.ForeColor = Color.Blue;
+            label1.Location = new Point(5, 233);
+            label1.Name = "label1";
+            label1.Size = new Size(155, 28);
+            label1.TabIndex = 7;
+            label1.Text = "Entry Vouchers";
+            label1.Click += label1_Click;
+            // 
+            // InventoryItemLabel
+            // 
+            InventoryItemLabel.AutoSize = true;
+            InventoryItemLabel.BackColor = SystemColors.ControlLightLight;
+            InventoryItemLabel.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
+            InventoryItemLabel.ForeColor = Color.Blue;
+            InventoryItemLabel.Location = new Point(2, 194);
+            InventoryItemLabel.Name = "InventoryItemLabel";
+            InventoryItemLabel.Size = new Size(164, 28);
+            InventoryItemLabel.TabIndex = 6;
+            InventoryItemLabel.Text = "Inventory_Items";
+            InventoryItemLabel.Click += InventoryItemLabel_Click;
             // 
             // clientLabel
             // 
@@ -104,7 +135,7 @@
             clientLabel.BackColor = SystemColors.ControlLightLight;
             clientLabel.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             clientLabel.ForeColor = Color.Blue;
-            clientLabel.Location = new Point(23, 133);
+            clientLabel.Location = new Point(23, 151);
             clientLabel.Name = "clientLabel";
             clientLabel.Size = new Size(76, 28);
             clientLabel.TabIndex = 4;
@@ -117,7 +148,7 @@
             ProductsLabel.BackColor = SystemColors.ControlLightLight;
             ProductsLabel.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             ProductsLabel.ForeColor = Color.Blue;
-            ProductsLabel.Location = new Point(23, 56);
+            ProductsLabel.Location = new Point(23, 61);
             ProductsLabel.Name = "ProductsLabel";
             ProductsLabel.Size = new Size(95, 28);
             ProductsLabel.TabIndex = 5;
@@ -130,7 +161,7 @@
             suppliersLabel.BackColor = SystemColors.ControlLightLight;
             suppliersLabel.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             suppliersLabel.ForeColor = Color.Blue;
-            suppliersLabel.Location = new Point(23, 94);
+            suppliersLabel.Location = new Point(23, 106);
             suppliersLabel.Name = "suppliersLabel";
             suppliersLabel.Size = new Size(99, 28);
             suppliersLabel.TabIndex = 3;
@@ -154,7 +185,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(990, 515);
+            ClientSize = new Size(1068, 570);
             Controls.Add(panel1);
             Controls.Add(panelMenu);
             Controls.Add(panelNavbar);
@@ -179,5 +210,7 @@
         private Label suppliersLabel;
         private Label clientLabel;
         private Panel panel1;
+        private Label InventoryItemLabel;
+        private Label label1;
     }
 }

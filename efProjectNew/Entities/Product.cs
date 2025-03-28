@@ -21,5 +21,10 @@ namespace efProjectNew.Entities
         public double ProductPrice { get; set; }
 
         public string MeasurementType { get; set; }
+
+        public virtual ICollection<InventoryItems> InventoryItems { get; set; }=new HashSet<InventoryItems>();
+
+        public virtual ICollection<EntryVoucherDetail> EntryVoucherDetails { get; set; } = new HashSet<EntryVoucherDetail>();
+
     }
 }

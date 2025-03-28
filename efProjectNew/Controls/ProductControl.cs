@@ -40,8 +40,8 @@ namespace efProjectNew.Controls
         }
         private void loadData()
         {
-            Context.Products.Load();
-            var list = Context.Products.Local.ToBindingList();
+          
+            var list = Context.Products.ToList();
             dataGridView1.DataSource = list;
 
             foreach (DataGridViewRow row in dataGridView1.Rows)
@@ -49,7 +49,6 @@ namespace efProjectNew.Controls
                 DataGridViewButtonCell buttonCell = new DataGridViewButtonCell();
                 DataGridViewButtonCell buttonCell1 = new DataGridViewButtonCell();
 
-                // Create custom text for buttons (Edit & Delete)
                 buttonCell.Value = "✏️ Edit ";
                 buttonCell1.Value = "🗑 Delete";
                 row.Cells["Edit"] = buttonCell;
@@ -198,30 +197,31 @@ namespace efProjectNew.Controls
 
         private void DeleteProduct(int productId)
         {
-            try
-            {
+            
                 var product = Context.Products.FirstOrDefault(p => p.ProductId == productId);
                 if (product != null)
                 {
                     var confirm = MessageBox.Show("Are you sure you want to delete this product?", "Confirm Deletion", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
 
-                    if (confirm == DialogResult.Yes)
-                    {
+                if (confirm == DialogResult.Yes)
+                {
+                    try {
                         Context.Products.Remove(product);
                         Context.SaveChanges();
                         MessageBox.Show("Product deleted successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        loadData();  // ✅ Refresh DataGridView
+                        loadData();  
                     }
+                    catch
+                    {
+                        MessageBox.Show("Product Can't deleted!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
                 }
                 else
                 {
                     MessageBox.Show("Product not found!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
-            }
-            catch
-            {
-                MessageBox.Show("Product Can't deleted!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+
         }
         private void editProduct(int id)
         {

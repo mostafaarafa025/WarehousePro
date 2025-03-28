@@ -26,8 +26,8 @@ namespace efProjectNew.Controls
 
         private void loadData()
         {
-            Context.Suppliers.Load();
-            var list = Context.Suppliers.Local.ToBindingList();
+       
+            var list = Context.Suppliers.ToList();
             dataGridView1.DataSource = list;
 
             foreach (DataGridViewRow row in dataGridView1.Rows)
@@ -168,8 +168,7 @@ namespace efProjectNew.Controls
         }
         private void DeleteSupplier(int supplierId)
         {
-            try
-            {
+           
                 var supplier = Context.Suppliers.FirstOrDefault(p => p.SupplierId == supplierId);
                 if (supplier != null)
                 {
@@ -177,21 +176,25 @@ namespace efProjectNew.Controls
 
                     if (confirm == DialogResult.Yes)
                     {
+                    try
+                    {
                         Context.Suppliers.Remove(supplier);
                         Context.SaveChanges();
                         MessageBox.Show("supplier deleted successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         loadData();
                     }
+                    catch
+                    {
+                        MessageBox.Show("supplier Can't deleted!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                    }
+                }
                 }
                 else
                 {
                     MessageBox.Show("Supplier not found!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
-            }
-            catch
-            {
-                MessageBox.Show("supplier Can't deleted!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+         
         }
         private void editSupplier(int id)
         {

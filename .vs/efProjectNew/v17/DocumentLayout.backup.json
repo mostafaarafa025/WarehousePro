@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "D:\\iti\\entityFramework\\efProjectNew\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B2BA5918-24F4-4F58-A76F-F4038CDE7F5C}|efProjectNew\\efProjectNew.csproj|d:\\iti\\entityframework\\efprojectnew\\efprojectnew\\controls\\suppliercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2BA5918-24F4-4F58-A76F-F4038CDE7F5C}|efProjectNew\\efProjectNew.csproj|solutionrelative:efprojectnew\\controls\\suppliercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2BA5918-24F4-4F58-A76F-F4038CDE7F5C}|efProjectNew\\efProjectNew.csproj|D:\\iti\\entityFramework\\efProjectNew\\efprojectnew\\controls\\suppliercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B2BA5918-24F4-4F58-A76F-F4038CDE7F5C}|efProjectNew\\efProjectNew.csproj|solutionrelative:efprojectnew\\controls\\suppliercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2BA5918-24F4-4F58-A76F-F4038CDE7F5C}|efProjectNew\\efProjectNew.csproj|D:\\iti\\entityFramework\\efProjectNew\\efprojectnew\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B2BA5918-24F4-4F58-A76F-F4038CDE7F5C}|efProjectNew\\efProjectNew.csproj|solutionrelative:efprojectnew\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2BA5918-24F4-4F58-A76F-F4038CDE7F5C}|efProjectNew\\efProjectNew.csproj|d:\\iti\\entityframework\\efprojectnew\\efprojectnew\\controls\\clientcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2BA5918-24F4-4F58-A76F-F4038CDE7F5C}|efProjectNew\\efProjectNew.csproj|solutionrelative:efprojectnew\\controls\\clientcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B2BA5918-24F4-4F58-A76F-F4038CDE7F5C}|efProjectNew\\efProjectNew.csproj|d:\\iti\\entityframework\\efprojectnew\\efprojectnew\\entryvouchersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2BA5918-24F4-4F58-A76F-F4038CDE7F5C}|efProjectNew\\efProjectNew.csproj|solutionrelative:efprojectnew\\entryvouchersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,55 +14,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\iti\\entityFramework\\efProjectNew\\efProjectNew\\Form1.cs",
-              "RelativeDocumentMoniker": "efProjectNew\\Form1.cs",
-              "ToolTip": "D:\\iti\\entityFramework\\efProjectNew\\efProjectNew\\Form1.cs [Design]",
-              "RelativeToolTip": "efProjectNew\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T02:02:48.259Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SupplierControl.cs [Design]",
-              "DocumentMoniker": "D:\\iti\\entityFramework\\efProjectNew\\efProjectNew\\Controls\\SupplierControl.cs",
-              "RelativeDocumentMoniker": "efProjectNew\\Controls\\SupplierControl.cs",
-              "ToolTip": "D:\\iti\\entityFramework\\efProjectNew\\efProjectNew\\Controls\\SupplierControl.cs [Design]",
-              "RelativeToolTip": "efProjectNew\\Controls\\SupplierControl.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T06:15:46.398Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SupplierControl.cs",
-              "DocumentMoniker": "D:\\iti\\entityFramework\\efProjectNew\\efProjectNew\\Controls\\SupplierControl.cs",
-              "RelativeDocumentMoniker": "efProjectNew\\Controls\\SupplierControl.cs",
-              "ToolTip": "D:\\iti\\entityFramework\\efProjectNew\\efProjectNew\\Controls\\SupplierControl.cs",
-              "RelativeToolTip": "efProjectNew\\Controls\\SupplierControl.cs",
-              "ViewState": "AgIAAPoAAAAAAAAAAAAcwAoBAAAAAAAAAAAAAA==",
+              "Title": "EntryVouchersForm.cs",
+              "DocumentMoniker": "D:\\iti\\entityFramework\\efProjectNew\\efProjectNew\\EntryVouchersForm.cs",
+              "RelativeDocumentMoniker": "efProjectNew\\EntryVouchersForm.cs",
+              "ToolTip": "D:\\iti\\entityFramework\\efProjectNew\\efProjectNew\\EntryVouchersForm.cs",
+              "RelativeToolTip": "efProjectNew\\EntryVouchersForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAPgAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T06:05:26.406Z",
+              "WhenOpened": "2025-03-18T05:50:46.408Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ClientControl.cs",
-              "DocumentMoniker": "D:\\iti\\entityFramework\\efProjectNew\\efProjectNew\\Controls\\ClientControl.cs",
-              "RelativeDocumentMoniker": "efProjectNew\\Controls\\ClientControl.cs",
-              "ToolTip": "D:\\iti\\entityFramework\\efProjectNew\\efProjectNew\\Controls\\ClientControl.cs",
-              "RelativeToolTip": "efProjectNew\\Controls\\ClientControl.cs",
-              "ViewState": "AgIAAPcAAAAAAAAAAAAAAPoAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T01:46:21.512Z"
             }
           ]
         }

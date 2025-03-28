@@ -32,8 +32,8 @@ namespace efProjectNew.Controls
         }
         private void loadData()
         {
-            Context.Clients.Load();
-            var list = Context.Clients.Local.ToBindingList();
+          
+            var list = Context.Clients.ToList();
             dataGridView1.DataSource = list;
 
             foreach (DataGridViewRow row in dataGridView1.Rows)
@@ -206,8 +206,7 @@ namespace efProjectNew.Controls
         }
         private void DeleteClient(int clientId)
         {
-            try
-            {
+            
                 var client = Context.Clients.FirstOrDefault(p => p.ClientId == clientId);
                 if (client != null)
                 {
@@ -215,21 +214,26 @@ namespace efProjectNew.Controls
 
                     if (confirm == DialogResult.Yes)
                     {
+                    try
+                    {
                         Context.Clients.Remove(client);
                         Context.SaveChanges();
                         MessageBox.Show("client deleted successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        loadData();  // ✅ Refresh DataGridView
+                        loadData();
                     }
+                    catch
+                    {
+                        MessageBox.Show("client Can't deleted!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                    }
+                }
                 }
                 else
                 {
                     MessageBox.Show("client not found!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
-            }
-            catch
-            {
-                MessageBox.Show("client Can't deleted!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+           
+          
         }
         private void editClient(int id)
         {
