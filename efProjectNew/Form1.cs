@@ -45,7 +45,7 @@ namespace efProjectNew
 
         private void InventoryLabel_Click(object sender, EventArgs e)
         {
-            LoadUserControl(new Inventory_control()); // Load Inventory section
+            LoadUserControl(new Inventory_control()); 
             panelMenu.Visible = false;
         }
 

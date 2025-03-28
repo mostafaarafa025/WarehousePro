@@ -103,69 +103,68 @@ namespace efProjectNew.Controls
         }
         private void SetupDataGridView()
         {
-            // Ensure the DataGridView is empty before adding new columns
+           
             dataGridView1.Columns.Clear();
 
-            // Auto-generate columns for the data
+    
             dataGridView1.AutoGenerateColumns = false;
 
-            // Create a column for Product ID
+    
             dataGridView1.Columns.Add(new DataGridViewTextBoxColumn()
             {
-                Name = "ProductId", // 👈 Add this
+                Name = "ProductId", 
                 DataPropertyName = "ProductId",
                 HeaderText = "Code",
                 ReadOnly = true,
                 Width = 50
             });
 
-            // Create a column for Product Name
+        
             dataGridView1.Columns.Add(new DataGridViewTextBoxColumn()
             {
-                Name = "ProductName", // 👈 Add this
+                Name = "ProductName",
                 DataPropertyName = "ProductName",
                 HeaderText = "Name",
                 ReadOnly = true,
                 Width = 130
             });
 
-            // Create a column for Product Price
+           
             dataGridView1.Columns.Add(new DataGridViewTextBoxColumn()
             {
-                Name = "ProductPrice", // 👈 Add this
+                Name = "ProductPrice", 
                 DataPropertyName = "ProductPrice",
                 HeaderText = "Price",
                 ReadOnly = true,
                 Width = 100
             });
 
-            // Create a column for Measurement Type
+          
             dataGridView1.Columns.Add(new DataGridViewTextBoxColumn()
             {
-                Name = "MeasurementType", // 👈 Add this
+                Name = "MeasurementType",
                 DataPropertyName = "MeasurementType",
                 HeaderText = "Measurement Type",
                 ReadOnly = true,
                 Width = 150
             });
 
-            // Create a custom button column for Edit
             DataGridViewButtonColumn editColumn = new DataGridViewButtonColumn()
             {
                 Name = "Edit",
                 HeaderText = "Edit",
                 Text = "Edit",
-                UseColumnTextForButtonValue = true, // 👈 This sets the button text
+                UseColumnTextForButtonValue = true, 
                 Width = 110
             };
 
-            // Create a custom button column for Delete
+         
             DataGridViewButtonColumn deleteColumn = new DataGridViewButtonColumn()
             {
                 Name = "Delete",
                 HeaderText = "Delete",
                 Text = "Delete",
-                UseColumnTextForButtonValue = true, // 👈 This sets the button text
+                UseColumnTextForButtonValue = true,
                 Width = 110
             };
 

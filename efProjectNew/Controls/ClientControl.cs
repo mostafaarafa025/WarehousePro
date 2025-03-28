@@ -41,7 +41,7 @@ namespace efProjectNew.Controls
                 DataGridViewButtonCell buttonCell = new DataGridViewButtonCell();
                 DataGridViewButtonCell buttonCell1 = new DataGridViewButtonCell();
 
-                // Create custom text for buttons (Edit & Delete)
+               
                 buttonCell.Value = "✏️ Edit ";
                 buttonCell1.Value = "🗑 Delete";
                 row.Cells["Edit"] = buttonCell;

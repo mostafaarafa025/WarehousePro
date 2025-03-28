@@ -248,7 +248,7 @@ namespace efProjectNew
                         }
                         else
                         {
-                            // Insert new inventory item
+                           
                             Context.InventoryItems.Add(new Entities.InventoryItems()
                             {
                                 InventoryId = inventoryId,

@@ -74,7 +74,7 @@ namespace efProjectNew
                 DataGridViewButtonCell buttonCell = new DataGridViewButtonCell();
                 DataGridViewButtonCell buttonCell1 = new DataGridViewButtonCell();
 
-                // Create custom text for buttons (Edit & Delete)
+            
                 buttonCell.Value = "✏️ Edit ";
                 buttonCell1.Value = "🗑 Delete";
                 row.Cells["Edit"] = buttonCell;
@@ -102,10 +102,9 @@ namespace efProjectNew
 
         private void SetupDataGridView()
         {
-            // Ensure the DataGridView is empty before adding new columns
+        
             dataGridView1.Columns.Clear();
 
-            // Auto-generate columns for the data
             dataGridView1.AutoGenerateColumns = false;
 
           
@@ -141,37 +140,36 @@ namespace efProjectNew
            
             dataGridView1.Columns.Add(new DataGridViewTextBoxColumn()
             {
-                Name = "ManagerName", // 👈 Add this
+                Name = "ManagerName", 
                 DataPropertyName = "ManagerName",
                 HeaderText = "ManagerName",
                 ReadOnly = true,
                 Width = 150
             });
 
-            // Create a custom button column for Edit
+          
             DataGridViewButtonColumn editColumn = new DataGridViewButtonColumn()
             {
                 Name = "Edit",
                 HeaderText = "Edit",
                 Text = "Edit",
-                UseColumnTextForButtonValue = true, // 👈 This sets the button text
+                UseColumnTextForButtonValue = true, 
                 Width = 100
             };
 
-            // Create a custom button column for Delete
+         
             DataGridViewButtonColumn deleteColumn = new DataGridViewButtonColumn()
             {
                 Name = "Delete",
                 HeaderText = "Delete",
                 Text = "Delete",
-                UseColumnTextForButtonValue = true, // 👈 This sets the button text
+                UseColumnTextForButtonValue = true, 
                 Width = 100
             };
 
             dataGridView1.Columns.Add(editColumn);
             dataGridView1.Columns.Add(deleteColumn);
 
-            // Load the data
             loadData();
         }
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)

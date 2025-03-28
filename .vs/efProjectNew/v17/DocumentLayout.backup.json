@@ -3,8 +3,40 @@
   "WorkspaceRootPath": "D:\\iti\\entityFramework\\efProjectNew\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B2BA5918-24F4-4F58-A76F-F4038CDE7F5C}|efProjectNew\\efProjectNew.csproj|d:\\iti\\entityframework\\efprojectnew\\efprojectnew\\productform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2BA5918-24F4-4F58-A76F-F4038CDE7F5C}|efProjectNew\\efProjectNew.csproj|solutionrelative:efprojectnew\\productform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2BA5918-24F4-4F58-A76F-F4038CDE7F5C}|efProjectNew\\efProjectNew.csproj|d:\\iti\\entityframework\\efprojectnew\\efprojectnew\\productform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B2BA5918-24F4-4F58-A76F-F4038CDE7F5C}|efProjectNew\\efProjectNew.csproj|solutionrelative:efprojectnew\\productform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2BA5918-24F4-4F58-A76F-F4038CDE7F5C}|efProjectNew\\efProjectNew.csproj|d:\\iti\\entityframework\\efprojectnew\\efprojectnew\\formdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2BA5918-24F4-4F58-A76F-F4038CDE7F5C}|efProjectNew\\efProjectNew.csproj|solutionrelative:efprojectnew\\formdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2BA5918-24F4-4F58-A76F-F4038CDE7F5C}|efProjectNew\\efProjectNew.csproj|d:\\iti\\entityframework\\efprojectnew\\efprojectnew\\formdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B2BA5918-24F4-4F58-A76F-F4038CDE7F5C}|efProjectNew\\efProjectNew.csproj|solutionrelative:efprojectnew\\formdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2BA5918-24F4-4F58-A76F-F4038CDE7F5C}|efProjectNew\\efProjectNew.csproj|d:\\iti\\entityframework\\efprojectnew\\efprojectnew\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2BA5918-24F4-4F58-A76F-F4038CDE7F5C}|efProjectNew\\efProjectNew.csproj|solutionrelative:efprojectnew\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2BA5918-24F4-4F58-A76F-F4038CDE7F5C}|efProjectNew\\efProjectNew.csproj|d:\\iti\\entityframework\\efprojectnew\\efprojectnew\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B2BA5918-24F4-4F58-A76F-F4038CDE7F5C}|efProjectNew\\efProjectNew.csproj|solutionrelative:efprojectnew\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B2BA5918-24F4-4F58-A76F-F4038CDE7F5C}|efProjectNew\\efProjectNew.csproj|d:\\iti\\entityframework\\efprojectnew\\efprojectnew\\entryvouchersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2BA5918-24F4-4F58-A76F-F4038CDE7F5C}|efProjectNew\\efProjectNew.csproj|solutionrelative:efprojectnew\\entryvouchersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2BA5918-24F4-4F58-A76F-F4038CDE7F5C}|efProjectNew\\efProjectNew.csproj|d:\\iti\\entityframework\\efprojectnew\\efprojectnew\\entryvouchersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B2BA5918-24F4-4F58-A76F-F4038CDE7F5C}|efProjectNew\\efProjectNew.csproj|solutionrelative:efprojectnew\\entryvouchersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2BA5918-24F4-4F58-A76F-F4038CDE7F5C}|efProjectNew\\efProjectNew.csproj|d:\\iti\\entityframework\\efprojectnew\\efprojectnew\\entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2BA5918-24F4-4F58-A76F-F4038CDE7F5C}|efProjectNew\\efProjectNew.csproj|solutionrelative:efprojectnew\\entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +46,123 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ProductForm.cs",
+              "DocumentMoniker": "D:\\iti\\entityFramework\\efProjectNew\\efProjectNew\\ProductForm.cs",
+              "RelativeDocumentMoniker": "efProjectNew\\ProductForm.cs",
+              "ToolTip": "D:\\iti\\entityFramework\\efProjectNew\\efProjectNew\\ProductForm.cs",
+              "RelativeToolTip": "efProjectNew\\ProductForm.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T15:33:21.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductForm.cs [Design]",
+              "DocumentMoniker": "D:\\iti\\entityFramework\\efProjectNew\\efProjectNew\\ProductForm.cs",
+              "RelativeDocumentMoniker": "efProjectNew\\ProductForm.cs",
+              "ToolTip": "D:\\iti\\entityFramework\\efProjectNew\\efProjectNew\\ProductForm.cs [Design]",
+              "RelativeToolTip": "efProjectNew\\ProductForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T15:33:19.523Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "formDetails.cs",
+              "DocumentMoniker": "D:\\iti\\entityFramework\\efProjectNew\\efProjectNew\\formDetails.cs",
+              "RelativeDocumentMoniker": "efProjectNew\\formDetails.cs",
+              "ToolTip": "D:\\iti\\entityFramework\\efProjectNew\\efProjectNew\\formDetails.cs",
+              "RelativeToolTip": "efProjectNew\\formDetails.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T15:33:16.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "formDetails.cs [Design]",
+              "DocumentMoniker": "D:\\iti\\entityFramework\\efProjectNew\\efProjectNew\\formDetails.cs",
+              "RelativeDocumentMoniker": "efProjectNew\\formDetails.cs",
+              "ToolTip": "D:\\iti\\entityFramework\\efProjectNew\\efProjectNew\\formDetails.cs [Design]",
+              "RelativeToolTip": "efProjectNew\\formDetails.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T15:33:14.294Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\iti\\entityFramework\\efProjectNew\\efProjectNew\\Form1.cs",
+              "RelativeDocumentMoniker": "efProjectNew\\Form1.cs",
+              "ToolTip": "D:\\iti\\entityFramework\\efProjectNew\\efProjectNew\\Form1.cs",
+              "RelativeToolTip": "efProjectNew\\Form1.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAywC8AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T15:33:05.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\iti\\entityFramework\\efProjectNew\\efProjectNew\\Form1.cs",
+              "RelativeDocumentMoniker": "efProjectNew\\Form1.cs",
+              "ToolTip": "D:\\iti\\entityFramework\\efProjectNew\\efProjectNew\\Form1.cs [Design]",
+              "RelativeToolTip": "efProjectNew\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T15:33:02.708Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "EntryVouchersForm.cs",
               "DocumentMoniker": "D:\\iti\\entityFramework\\efProjectNew\\efProjectNew\\EntryVouchersForm.cs",
               "RelativeDocumentMoniker": "efProjectNew\\EntryVouchersForm.cs",
               "ToolTip": "D:\\iti\\entityFramework\\efProjectNew\\efProjectNew\\EntryVouchersForm.cs",
               "RelativeToolTip": "efProjectNew\\EntryVouchersForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAPgAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAABABAAAAAAAAAAAUwPoAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T05:50:46.408Z",
+              "WhenOpened": "2025-03-28T15:32:40.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EntryVouchersForm.cs [Design]",
+              "DocumentMoniker": "D:\\iti\\entityFramework\\efProjectNew\\efProjectNew\\EntryVouchersForm.cs",
+              "RelativeDocumentMoniker": "efProjectNew\\EntryVouchersForm.cs",
+              "ToolTip": "D:\\iti\\entityFramework\\efProjectNew\\efProjectNew\\EntryVouchersForm.cs [Design]",
+              "RelativeToolTip": "efProjectNew\\EntryVouchersForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T15:32:38.035Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Client.cs",
+              "DocumentMoniker": "D:\\iti\\entityFramework\\efProjectNew\\efProjectNew\\Entities\\Client.cs",
+              "RelativeDocumentMoniker": "efProjectNew\\Entities\\Client.cs",
+              "ToolTip": "D:\\iti\\entityFramework\\efProjectNew\\efProjectNew\\Entities\\Client.cs",
+              "RelativeToolTip": "efProjectNew\\Entities\\Client.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T15:32:14.295Z",
               "EditorCaption": ""
             }
           ]
